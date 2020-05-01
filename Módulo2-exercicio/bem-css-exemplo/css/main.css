@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: #eee;
+    display: grid;
+    place-content: center;
+    font-family: sans-serif;
+}
+
+.card{
+    padding: 0 5em;
+}
+
+.card__header{
+    height: 100px;
+    width: 100%;
+    background: #e0466b;
+}
+.card__content{
+    padding: 1.53em;
+    background: white;
+}
+
+.card__list{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.card__item--active{
+    background: #d4d4d4;
+    font-weight: bold;
+   
+}
+
+.card__button{
+    background: #2c8973;
+    color: white;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+
+.card__button:hover{
+    background: #267764;
+}
